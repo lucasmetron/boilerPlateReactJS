@@ -24,10 +24,10 @@
       "pre-commit": "lint-staged"
     }
   },
+  
   "lint-staged": {
     "src/**/*": [
-      "yarn lint --fix",
-      "yarn test --findRelatedTests --bail"
+      "yarn lint --fix"
     ]
   },
   "eslintConfig": {
